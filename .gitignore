@@ -1,0 +1,51 @@
+# Compiled object files
+*.o
+*.obj
+*.out
+
+# Compiled executable files
+*.exe
+*.a
+*.so
+*.dylib
+*.dll
+
+# Debug files
+*.dSYM/
+*.su
+*.gch
+*.pch
+
+# Dependency files
+*.d
+*.dep
+
+# MinGW/GCC generated files
+*.gch
+*.pch
+
+# Visual Studio Code
+.vscode/
+*.code-workspace
+
+# IDEs
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# CMake
+CMakeFiles/
+cmake_build_debug/
+cmake_build_release/
+CMakeCache.txt
+
+# Temp files
+*.tmp
+*.temp
+*.log
+
+# OS specific
+Thumbs.db
+.DS_Store
