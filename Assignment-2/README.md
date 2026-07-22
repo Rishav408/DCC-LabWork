@@ -26,6 +26,8 @@ The calculator supports the following operations:
 - Multiplication
 - Division
 
+The client is now interactive and asks the user to choose an operation and enter two numbers before sending the request to the remote server.
+
 ## How to Run
 
 1. Open a terminal in the Assignment-2 folder.
@@ -41,10 +43,14 @@ The calculator supports the following operations:
    ```bash
    java RMIClient
    ```
+5. When prompted, enter:
+   - the operation number (1-4)
+   - the first number
+   - the second number
 
 ## Expected Output
 
-The client will print the results of the arithmetic operations performed remotely.
+The client will display the result of the selected arithmetic operation performed remotely.
 
 ## Learning Objective
 
