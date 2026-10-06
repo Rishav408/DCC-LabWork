@@ -166,4 +166,4 @@ Academic use only.
 
 **Course:** Distributed Cloud Computing (DCC)  
 **Semester:** 7  
-**Institution:** [Your College Name]
+**Institution:** [MIT-WPU]
