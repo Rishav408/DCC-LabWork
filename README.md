@@ -13,6 +13,8 @@ This repository contains practical implementations and lab assignments focusing 
 - Work with network protocols and inter-process communication
 - Develop proficiency in C/C++ for system-level programming
 - Build scalable and efficient distributed systems
+- Configure and manage Network File Systems (NFS)
+- Implement distributed storage solutions
 
 ## ?? Repository Structure
 
@@ -23,6 +25,7 @@ DCC-LabWork/
 +-- Assignment-3/          # RPC Student Marks Service
 +-- Assignment-4/          # Lamport Logical Clock Algorithm
 +-- Assignment-5/          # Bully Election Algorithm
++-- Assignment-6/          # NFS Configuration in Linux
 +-- .gitignore            # Git ignore file for C/C++ projects
 +-- README.md             # This file
 ```
@@ -33,6 +36,8 @@ DCC-LabWork/
 
 - **GCC Compiler** - MinGW for Windows or native GCC for Linux/Mac
 - **Windows Sockets 2 (Winsock2)** - For Windows socket programming
+- **Java JDK** - For RMI and Java-based assignments
+- **NFS Packages** - nfs-kernel-server and nfs-common for Linux (Assignment-6)
 - **VS Code** (Optional) - For development
 - **Git** - For version control
 
@@ -51,6 +56,9 @@ DCC-LabWork/
 # Install GCC
 sudo apt-get install gcc  # Ubuntu/Debian
 brew install gcc          # macOS
+
+# Install NFS packages (for Assignment-6)
+sudo apt-get install nfs-kernel-server nfs-common  # Ubuntu/Debian
 ```
 
 ## ?? Quick Start
@@ -117,6 +125,12 @@ C implementation of Bully Election Algorithm for coordinator selection in distri
 
 [? See Assignment-5 Details](./Assignment-5/README.md)
 
+### Assignment-6: NFS Configuration in Linux
+
+Linux NFS (Network File System) server and client configuration for sharing files over a network. Includes automated setup scripts, export configuration, mount point management, and verification of file sharing capabilities.
+
+[? See Assignment-6 Details](./Assignment-6/README.md)
+
 ## ??? Build & Compilation
 
 ### General Command
@@ -133,7 +147,10 @@ gcc -fdiagnostics-color=always -g filename.c -o output.exe -lws2_32
 
 ## ?? Notes
 
-- All assignments are implemented in **C** using **Winsock2** for cross-platform compatibility
+- Assignments 1, 4, and 5 are implemented in **C** using **Winsock2** for cross-platform compatibility
+- Assignment 2 uses **Java RMI** for remote method invocation
+- Assignment 3 uses **C with Sun RPC** for remote procedure calls
+- Assignment 6 is a **Linux shell script** based assignment for NFS configuration
 - Comprehensive error handling is implemented in all programs
 - Code follows best practices for socket programming and resource management
 

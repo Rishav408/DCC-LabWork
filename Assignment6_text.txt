@@ -1,0 +1,62 @@
+Experiment:  
+NFS Configuration in Linux  
+Aim 
+Configure a Network File System (NFS) server and access the shared directory from a client 
+system. 
+Procedure 
+Step 1: System Preparation 
+Update the system and install required NFS packages. 
+ 
+Commands: 
+______________________________ 
+______________________________ 
+Step 2: Server Configuration 
+Create a directory to be shared and assign appropriate permissions. 
+ 
+Commands: 
+______________________________ 
+______________________________ 
+ 
+Create a sample file: 
+______________________________ 
+Step 3: Export Configuration 
+Open configuration file: 
+______________________________ 
+ 
+Write entry: 
+______________________________ 
+ 
+Apply configuration: 
+______________________________ 
+Step 4: Service Management 
+Start/restart NFS service: 
+______________________________ 
+Step 5: Client Configuration 
+Create mount point: 
+______________________________ 
+ 
+Mount shared directory: 
+______________________________ 
+Step 6: Verification 
+List contents: 
+______________________________ 
+ 
+Create file: 
+______________________________ 
+ 
+Verify on server: 
+______________________________ 
+Step 7: Analysis 
+1. Role of /etc/exports? 
+2. Why mounting is required? 
+3. Difference between local FS and NFS? 
+4. Effect of incorrect permissions? 
+Step 8: Advanced Task 
+Allow only specific IP and read-only access: 
+______________________________ 
+ 
+FAQ: 
+1. What is the role of /etc/exports?  
+2. Why is mounting required in NFS?  
+3. Difference between local file system and NFS.  
+4. What will happen if permissions are not set properly? 
